@@ -1,0 +1,16 @@
+// .devcontainer/devcontainer.json
+ {
+   "name": "Test Container",
+   "image": "mcr.microsoft.com/devcontainers/universal:2",
+   "features": {
+     // Only include one feature that worked before, like aws-cli
+     "ghcr.io/devcontainers/features/aws-cli:1": {}
+   },
+   "customizations": {
+     "vscode": {
+       "settings": {},
+       "extensions": [] // Keep extensions empty for now
+     }
+   },
+   "remoteUser": "vscode"
+ }
